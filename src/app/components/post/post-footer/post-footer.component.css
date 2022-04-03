@@ -7,6 +7,14 @@
   align-items: center;
   justify-content: space-between;
 }
+ 
+.action-button {
+  opacity:2;
+}
+.action-button:hover
+{
+  opacity:0.5;
+}
 
 .post-footer .actions .actions-container .action-button {
   background: none;
@@ -23,6 +31,7 @@
 .post-footer .actions .actions-container .action-button:hover {
   cursor: pointer;
 }
+
 
 .post-footer .likes {
   display: flex;

@@ -57,7 +57,7 @@
 #aside-data .suggestions .suggestions-heading {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #aside-data .suggestions .suggestions-heading h2 {
@@ -122,8 +122,8 @@
   list-style: none;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0 40px 0 0;
-  margin: 0;
+  padding: 0px 40px 0 0;
+  margin: 5px;
 }
 
 .insta-infos .insta-infos-list + .insta-infos-list {
